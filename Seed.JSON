@@ -1,0 +1,174 @@
+// Campus Life Planner - Initial Data
+// Provides initial records and settings for the app
+
+export const initialData = {
+  records: [
+    {
+      id: "rec_001",
+      title: "Data Structures Presentation",
+      dueDate: "2025-01-15",
+      duration: 8.5,
+      tag: "Computer Science",
+      status: "pending",
+      createdAt: "2025-01-01T09:00:00Z",
+      updatedAt: "2025-01-01T09:00:00Z"
+    },
+    {
+      id: "rec_002",
+      title: "Calculus Problem Set 3",
+      dueDate: "2025-12-20",
+      duration: 4.25,
+      tag: "Mathematics",
+      status: "completed",
+      createdAt: "2025-12-05T10:30:00Z",
+      updatedAt: "2025-12-10T15:45:00Z"
+    },
+    {
+      id: "rec_003",
+      title: "Library Research",
+      dueDate: "2025-01-08",
+      duration: 6.0,
+      tag: "Library",
+      status: "pending",
+      createdAt: "2025-01-02T14:15:00Z",
+      updatedAt: "2025-01-02T14:15:00Z"
+    },
+    {
+      id: "rec_004",
+      title: "Hackathon Competition",
+      dueDate: "2025-12-18",
+      duration: 5.75,
+      tag: "Projects Development",
+      status: "pending",
+      createdAt: "2025-11-28T11:45:00Z",
+      updatedAt: "2025-12-02T16:30:00Z"
+    },
+    {
+      id: "rec_005",
+      title: "Essay and Interview Submission",
+      dueDate: "2025-12-15",
+      duration: 12.0,
+      tag: "Foundation",
+      status: "completed",
+      createdAt: "2025-11-15T08:20:00Z",
+      updatedAt: "2025-12-14T20:00:00Z"
+    },
+    {
+      id: "rec_006",
+      title: "Database Testing",
+      dueDate: "2025-01-22",
+      duration: 15.5,
+      tag: "Web Infrastructure",
+      status: "pending",
+      createdAt: "2025-01-03T16:00:00Z",
+      updatedAt: "2025-01-03T16:00:00Z"
+    },
+    {
+      id: "rec_007",
+      title: "Data Types and Variables",
+      dueDate: "2025-12-16",
+      duration: 3.25,
+      tag: "Python",
+      status: "pending",
+      createdAt: "2025-12-08T13:30:00Z",
+      updatedAt: "2025-12-08T13:30:00Z"
+    },
+    {
+      id: "rec_008",
+      title: "French Writing Practice",
+      dueDate: "2025-01-12",
+      duration: 7.75,
+      tag: "Language",
+      status: "pending",
+      createdAt: "2025-01-04T12:10:00Z",
+      updatedAt: "2025-01-04T12:10:00Z"
+    },
+    {
+      id: "rec_009",
+      title: "Regex Exercise 1",
+      dueDate: "2025-12-17",
+      duration: 2.0,
+      tag: "Regex",
+      status: "completed",
+      createdAt: "2025-12-01T09:30:00Z",
+      updatedAt: "2025-12-17T14:00:00Z"
+    },
+    {
+      id: "rec_010",
+      title: "Responsible Enterprise Task 1",
+      dueDate: "2025-01-25",
+      duration: 9.5,
+      tag: "Foundation",
+      status: "pending",
+      createdAt: "2025-01-05T15:45:00Z",
+      updatedAt: "2025-01-05T15:45:00Z"
+    },
+    {
+      id: "rec_011",
+      title: "Responsible Enterprise Formative Assignment",
+      dueDate: "2025-12-19",
+      duration: 8.0,
+      tag: "Foundation",
+      status: "pending",
+      createdAt: "2025-12-05T10:00:00Z",
+      updatedAt: "2025-12-05T10:00:00Z"
+    },
+    {
+      id: "rec_012",
+      title: "Web Development Portfolio",
+      dueDate: "2025-11-01",
+      duration: 20.0,
+      tag: "Computer Science",
+      status: "pending",
+      createdAt: "2025-11-20T14:00:00Z",
+      updatedAt: "2025-12-01T18:30:00Z"
+    },
+    {
+      id: "rec_013",
+      title: "Group Project Presentation",
+      dueDate: "2025-12-14",
+      duration: 3.5,
+      tag: "HTML & JavaScript",
+      status: "pending",
+      createdAt: "2025-12-01T16:20:00Z",
+      updatedAt: "2025-12-01T16:20:00Z"
+    },
+    {
+      id: "rec_014",
+      title: "CSS Assignment",
+      dueDate: "2025-12-13",
+      duration: 2.75,
+      tag: "Web Development",
+      status: "overdue",
+      createdAt: "2025-12-08T09:15:00Z",
+      updatedAt: "2025-12-08T09:15:00Z"
+    },
+    {
+      id: "rec_015",
+      title: "Frontend Web Development Summative Assignment",
+      dueDate: "2025-01-30",
+      duration: 12.25,
+      tag: "Web Development",
+      status: "pending",
+      createdAt: "2025-01-06T13:00:00Z",
+      updatedAt: "2025-01-06T13:00:00Z"
+    }
+  ],
+  settings: {
+    weeklyTarget: 35.0,
+    dailyTarget: 5.0,
+    defaultTag: "General",
+    durationUnit: "hours",
+    theme: "light",
+    notifications: {
+      dueSoon: true,
+      targetExceeded: true
+    }
+  },
+  metadata: {
+    version: "1.0.0",
+    created: "2025-12-11T18:54:26Z",
+    recordCount: 15,
+    description: "Campus Life Planner events data with diverse academic assignments and deadlines"
+  }
+};
