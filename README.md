@@ -68,24 +68,8 @@ Campus Life Planner uses advanced regex patterns for validation and search. Here
 | **Time Tokens** | `/\b([01]?[0-9]|2[0-3]):[0-5][0-9]\b/g` | Finds time references in HH:MM format | Finds "14:30" in "Meeting at 14:30" |
 | **Strong Password** | `/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/` | Password strength with positive lookahead assertions | Validates "MyPass123!" |
 | **Tag Filters** | `/^@(\w+)$/` | Special syntax for filtering by tags | Search "@math" to filter Math records |
-| **No Leading Zeros** | `/^(?!0\d)\d+(\.\d{1,2})?$/` | Numbers without leading zeros using negative lookahead | Validates "123" but rejects "0123" |
+| **No Leading Zeros** | `/^(?!0\d)\d+(\.\d{1,2})?$/` | Numbers without leading zeros using negative lookahead | Validates "123" but rejects "0123" 
 
-## ⌨️ Keyboard Shortcuts
-
-### Navigation
-| Shortcut | Action |
-|----------|--------|
-| `Tab` / `Shift+Tab` | Navigate between elements (forward/backward) |
-| `Enter` / `Space` | Activate buttons and links |
-| `Escape` | Close modals and dialogs |
-| `?` | Show keyboard shortcuts help |
-
-### Application
-| Shortcut | Action |
-|----------|--------|
-| `Ctrl+F` / `Cmd+F` | Focus search box |
-| `Ctrl+N` / `Cmd+N` | Add new record |
-| `Arrow Keys` | Navigate table cells |
 
 ### Accessibility Features
 - **Screen Reader Support**: Full ARIA implementation with live regions
