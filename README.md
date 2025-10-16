@@ -9,6 +9,8 @@ A comprehensive, accessible, and responsive web application built with vanilla H
 ![ES6 Modules](https://img.shields.io/badge/ES6-Modules-orange)
 ![Tests](https://img.shields.io/badge/Tests-Comprehensive-brightgreen)
 
+
+
 ## ✨ Features
 
 ### 📊 Dashboard
@@ -228,6 +230,8 @@ Edit the CSS custom properties in `css/styles.css`:
     /* ... more variables ... */
 }
 ```
+
+Here is the Demo video link [https://youtu.be/h0iq45u8d9s](url)
 
 ### Adding New Features
 1. **HTML**: Add new sections to `index.html`
