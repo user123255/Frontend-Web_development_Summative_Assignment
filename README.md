@@ -231,7 +231,7 @@ Edit the CSS custom properties in `css/styles.css`:
 }
 ```
 
-Here is the Demo video link [https://youtu.be/h0iq45u8d9s](url)
+Here is the Demo video link https://www.youtube.com/watch?v=h0iq45u8d9s
 
 ### Adding New Features
 1. **HTML**: Add new sections to `index.html`
